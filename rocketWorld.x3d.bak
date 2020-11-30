@@ -6,11 +6,11 @@
 <Scene>
 <ProtoDeclare name='Grid_11x11'>
 <ProtoInterface>
-<field name='visible' type='SFInt32' accessType='inputOutput' value='0'/>
-<field name='color' type='SFColor' accessType='inputOutput' value='0.3 0.3 0.3'/>
-<field name='scale' type='SFVec3f' accessType='inputOutput' value='1 1 1'/>
-<field name='rotation' type='SFRotation' accessType='inputOutput' value='0 0 1 0'/>
 <field name='position' type='SFVec3f' accessType='inputOutput' value='0 0 0'/>
+<field name='rotation' type='SFRotation' accessType='inputOutput' value='0 0 1 0'/>
+<field name='scale' type='SFVec3f' accessType='inputOutput' value='1 1 1'/>
+<field name='color' type='SFColor' accessType='inputOutput' value='0.3 0.3 0.3'/>
+<field name='visible' type='SFInt32' accessType='inputOutput' value='0'/>
 </ProtoInterface>
 <ProtoBody>
     <ExternProtoDeclare name='Triad' url='"*sl3dlib/objects/Components/Shapes/Triad.x3d" '>
@@ -57,16 +57,16 @@
     </Transform>
   </Switch>
 </ProtoBody></ProtoDeclare>
-<Transform rotation='0.5 0 1 0'>
+<Transform translation='0 -6 0' rotation='0.5 0 1 0'>
   <ProtoInstance name='Grid_11x11'>
-  <fieldValue name='visible' value='0'/>
-  <fieldValue name='color' value='0.3 0.3 0.3'/>
-  <fieldValue name='scale' value='1 1 1'/>
-  <fieldValue name='rotation' value='0 0 1 0'/>
   <fieldValue name='position' value='0 0 0'/>
+  <fieldValue name='rotation' value='0 0 1 0'/>
+  <fieldValue name='scale' value='1 1 1'/>
+  <fieldValue name='color' value='0.3 0.3 0.3'/>
+  <fieldValue name='visible' value='0'/>
   </ProtoInstance>
 </Transform>
-<Transform DEF='Shuttle'  translation='0 6 0' rotation='0 0 1 -1.5'>
+<Transform DEF='Shuttle'  rotation='0 0 1 -1.5'>
   <Transform>
     <Transform>
       <Shape>
