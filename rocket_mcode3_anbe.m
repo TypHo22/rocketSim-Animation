@@ -123,7 +123,7 @@ set_param(mdl,'StopTime','time(end)'...
     ,'SimulationMode','Normal'...
     ,'Solver','FixedStepAuto');
 
-  sim(mdl); % execute the simulation
+  sim(mdl);% execute the simulation
 
 
 
