@@ -100,7 +100,7 @@ xlabel('Time (s)');
 ylabel('Projectile Velocity (m/s)');
 grid on;
 
- T=t*length(H_projectile);
+T=t*length(H_projectile);
 time=[t_thrust:0.1:T];
 subplot(2,3,5);
 plot(time,H_projectile);
