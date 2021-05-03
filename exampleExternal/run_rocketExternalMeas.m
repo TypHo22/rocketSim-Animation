@@ -11,7 +11,7 @@ yRPos_sim = timeseries(meas.yRPos,meas.t);
 zRPos_sim = timeseries(meas.zRPos,meas.t);
 % height_sim = timeseries(H_projectile,time);
 % 
-mdl = 'rocketExternalMeas';
+mdl = 'rocketSim_externalValues';
 load_system(mdl)
 %configure simulink model
 %I use a fixed step Solver because you have fixed time steps
