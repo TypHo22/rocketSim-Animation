@@ -69,7 +69,7 @@
 <DirectionalLight>
 </DirectionalLight>
 <Transform DEF='Assembly_Transform'  scale='0.1 0.1 0.1' center='-6.5 -7 -6.5'>
-  <Transform DEF='Assembly_Transform_0001'  translation='-50 0 -50' center='-50 0 -50'>
+  <Transform DEF='Assembly_Transform_0001' >
     <Shape DEF='Assembly_Shape_0001' >
       <Appearance>
         <Material DEF='Assembly_Material_0001' >
